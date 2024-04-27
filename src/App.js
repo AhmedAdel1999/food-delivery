@@ -27,7 +27,7 @@ function App() {
          <Navbar />
          <div className="bg-bgColor basis-full">
             <Routes>
-                <Route index path="/home" element={<HomePage />} />
+                <Route index path="/" element={<HomePage />} />
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/register" element={<RegisterPage />} />

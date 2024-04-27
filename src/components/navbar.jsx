@@ -18,7 +18,7 @@ const Navbar = () =>{
     let total=0
 
     const navLinks = [
-        {display: "Home",path: "/home"},
+        {display: "Home",path: "/"},
         {display: "Foods",path: "/foods"},
         {display: "Cart",path: "/cart"},
         {display: "Contact",path: "/contact"},
