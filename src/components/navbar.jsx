@@ -98,7 +98,7 @@ const Navbar = () =>{
             </ul>
             {
                 openSidebar?
-                <div className="fixed right-0 top-0 h-screen w-[400px] bg-white">
+                <div className="fixed right-0 top-0 h-screen xs:max-w-[350px] sm:max-w-[400px] w-full bg-white">
                     <div className="p-5">
                         <div 
                           onClick={()=>setOpenSidebar(false)}

@@ -27,7 +27,7 @@ const TopHome = () =>{
                         <FontAwesomeIcon className="translate-y-[2px]" icon={faAngleRight} />
                     </button>
                     <button className="btnStyle bg-inherit text-mainColor hover:bg-mainColor hover:text-white">
-                        <Link to={"/food"}>See all foods</Link>
+                        <Link to={"/foods"}>See all foods</Link>
                     </button>
                 </div>
 
